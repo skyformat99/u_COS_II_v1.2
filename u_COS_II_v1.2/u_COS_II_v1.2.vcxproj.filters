@@ -13,5 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\Core">
+      <UniqueIdentifier>{c8368561-23f8-48a6-aa42-4c66e1c03113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Port">
+      <UniqueIdentifier>{9773877e-4ebf-4742-a51f-d45330b60fc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uCOS_II\CORE\ucos_ii.c">
+      <Filter>资源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="uCOS_II\PORT\os_cpu_c.c">
+      <Filter>资源文件\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="uCOS_II\PORT\os_trace.c">
+      <Filter>资源文件\Port</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
   </ItemGroup>
 </Project>
